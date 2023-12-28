@@ -1,0 +1,54 @@
+.container {
+	margin: 50px auto;
+    max-width: 600px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.checkmark_circle {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 3px solid #28a745;
+	position: relative;
+	box-sizing: content-box;
+	box-shadow: inset 0px 0px 0px #28a745;
+}
+
+
+#tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+}
+
+#tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 3px;
+    background-color:#0f9d3a;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+#tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #0f9d3a;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+

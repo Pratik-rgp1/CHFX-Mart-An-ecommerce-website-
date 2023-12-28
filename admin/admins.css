@@ -1,0 +1,123 @@
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for the container */
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Define styles for the sidebar */
+  .sidebar {
+    background-color: black;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .sidebar .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .sidebar .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar .menu li a:hover {
+    background-color: #fff;
+    color: #2d3e50;
+  }
+  
+  /* Define styles for the main content */
+  .main-content {
+    padding: 20px;
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .main-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+   background: linear-gradient(0deg, rgba(34,135,195,1) 0%, rgba(97,249,7,0.1826855742296919) 0%);
+   
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  /* Define styles for logout button */
+.logout-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  

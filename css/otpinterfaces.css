@@ -1,0 +1,117 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("../images/otp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 50px;
+  }
+  p{
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .otp-form {
+    position:relative;
+    width: 320px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    top: 150px;
+  }
+  .otp-form a{
+    position:absolute;
+    left: 90%;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .otp-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .otp-input {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .otp-input:focus {
+    outline: none;
+  }
+  
+  .verify-btn {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+  }
+  .verify-btn:hover{
+    background-color: rgb(36, 177, 17);
+  }
+  
+  .resend-btn {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .resend-btn:hover{
+    color: rgb(36, 177, 17);
+}
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .otp-input {
+      width: 3em;
+    }
+    
+    .verify-btn, .resend-btn {
+      font-size: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .otp-input {
+      width: 2.5em;
+    }
+    
+    .verify-btn, .resend-btn {
+      font-size: 0.8em;
+    }
+  }
+  
+   

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{
+    font-family: "Inter",sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #search-box{
+    background-color: rgb(255, 196, 0);
+    padding: 10px;
+    cursor: pointer;
+  }
+  .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: #F4E8E8; */
+    background-color:  rgba(159, 236, 159, 0.5);
+    align-items: center;
+    padding-inline: 5%;
+    padding-block: 0.5%;
+    
+    }
+    .logo img{
+        
+        width: 100px;
+        z-index: 1;
+
+    }
+    .logo img:hover{
+        background-color: rgba(0, 0, 0,0.1);
+    }
+
+.wrapper{
+    background-color: rgba(0, 0, 0,0.4);
+    padding-block: 0.7rem;
+    padding-inline: 1rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 0.5rem;
+    
+}
+
+.wrapper input{
+    width: 500px;
+    padding-block: 0.5rem;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+/* .wrapper  i{
+    background-color: rgb(255, 196, 0);
+    padding: 10px; 
+    
+    cursor: pointer;
+  
+} */
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: rgb(130, 211, 9);
+}
+.navbar .vertical{
+    width: 2px;
+    background-color: black;
+}
+
+.icons{
+    display: flex;
+    gap: 0.5rem;
+}
+.icons i:hover{
+    color: rgb(135, 219, 8); 
+}
+
+.menu {
+    display: none;
+}
+.navoff{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.navoff a{
+    text-decoration: none;
+    color:black;
+
+}
+.navoff a:hover{
+    color:green;
+}
+
+    
+  /* Responsive */
+  @media  screen and (max-width:420px) {
+    .header{
+        width: 100%;
+        padding-inline: 2.5%;
+    }
+    #navbar{
+        display: none;
+    }
+    .menu {
+        display: block;
+        
+    }
+    .logo {
+        position: relative;
+        left: 2rem;
+    }
+  }

@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .product-image {
+    flex: 1 1 50%;
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: auto; 
+    border-radius: 8px;
+    
+      
+       
+      
+      
+  }
+  
+  .product-details {
+    flex: 1 1 50%;
+  }
+  
+  .product-details h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  input[type=number] {
+    width: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    text-align: center;
+    outline: none;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  .products_star{
+    color: rgb(232, 163, 35);
+    margin-bottom: 19px;
+    cursor: pointer;
+  }
+
+  
+  .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    
+    textarea {
+      height: 100px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    
+.product-price{
+  display: flex;
+gap: 2rem;
+}
+.product-price h3{
+  font-size: 20px;
+}
+
+#red{
+  color: red;
+}

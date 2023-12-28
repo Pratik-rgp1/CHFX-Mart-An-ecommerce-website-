@@ -1,0 +1,187 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    
+    background-origin: content-box;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+   background-image:url("../images/login.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+   
+   
+
+}
+form{
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    /* height: 470px; */
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    /* background-color: #F4E8E8; */
+    background-color:rgba(224, 189, 206, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 45px;
+    
+   
+}
+h2{
+    text-align: center;
+    /* color: #fff; */
+  
+}
+
+
+
+
+input[type="password"],input[name="password"]{
+    background:#eee ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 240px;
+    margin-left: 40px;
+    
+   
+
+
+
+}
+input[type="email"],input[name="email"]{
+    background:#eee ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 240px;
+    margin-left: 40px;
+}
+
+input[type="submit"],input[name="submit"]{
+    padding:10px ;
+    width: 257px;
+    color: #fff;
+    background: #333;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40px;
+    
+}
+input[type="submit"]:hover{
+    background: gray;
+ }
+
+
+label{
+   float: left;
+   margin-left: 42px;
+
+}
+.google{
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 258px;
+}
+.google a{
+   text-decoration: none;
+   margin-top: 20px;
+   position: relative;
+   top: 10px;
+   left: -10px;
+}
+
+
+.img{
+    border-radius: 10px;
+    width: 28px;
+    height: auto;
+    padding: 2px;
+    float: left;
+    margin-left: 35px;
+}
+
+span{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+span a{
+    text-decoration: none;
+    
+}
+
+
+ .separator{
+  display:flex;
+  align-items: center;
+}
+
+.separator .line{
+  height: 1px;
+  flex: 1;
+  background-color: #000;
+  top: 30px;
+}
+
+.separator p{
+  padding: 0 1rem;
+}
+h3{
+    text-align: center;
+}
+
+    @media all and(max-wid:350px)
+    {
+        .flex-input{
+            flex-direction: column;
+        }
+        label
+        {
+            flex-direction: 0;
+        }
+    }
+    
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+.role{
+    background:#eee ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 15px; 
+
+ }
+ .forgot-password {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.forgot-password a {
+	color: #030303;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+	color: #686867;
+}.error
+{
+	
+    color: rgb(255, 0, 0);
+    display: block;
+   
+}
+
+  
+
+ 

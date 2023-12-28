@@ -1,0 +1,176 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 32px;
+}
+
+header h1{
+	text-align: center;
+}
+
+.productcontainer{
+	width: 80%;
+	margin-inline: 10%;
+	margin-block: 2%;
+	border-radius: 20px;
+	background-color: #fff;
+}
+
+.product {
+	/* background-color: #fff; */
+	 /* border: 1px solid #ccc; */
+	/* border-radius: 5px;  */
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+	/* margin-bottom: 20px; */
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product img {
+	width: 150px;
+	height: 150px;
+
+	/* margin-right: 20px; */
+}
+.productinfo{
+	
+	display: flex;
+	column-gap: 20px;
+}
+.price{
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+
+.product h2 {
+	margin: 0;
+	font-size: 24px;
+	/* flex-grow: 0.5; */
+}
+.product p {
+	margin: 0;
+	font-size: 15px;
+	
+}
+
+.product button {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.product button:hover {
+	background-color: #555;
+}
+
+.add-to-cart {
+	background-color: #4CAF50;
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-left: auto;
+}
+
+.add-to-cart:hover {
+	background-color: #3E8E41;
+}
+
+.empty-message {
+	font-size: 24px;
+	text-align: center;
+	padding-block:40px ;
+}
+@media screen and (max-width:450px){
+	.productcontainer{
+		width: 100%;
+		margin-inline: 0%;
+	}
+	.productinfo img {
+		width: 150px;
+		height: 150px;
+	
+	}
+	.add-to-cart {
+		margin-left: 0;
+	}
+	header {
+		padding: 0;
+		
+	}
+	.product{
+		margin-inline: 10px;
+		margin-block: 10px;
+	}
+	/* header h1{
+		font-size: 15px;
+	} */
+	.product {
+		padding: 0px;
+		align-items: center;
+		/* justify-content: unset; */
+	}
+	/* .empty-message {
+		font-size: 12px;
+	} */
+}
+/* checkout button */
+
+input[type="submit"],input[name="submit"]{
+    padding:10px ;
+	font-size: 25px;
+    width: 210px;
+    color: #fff;
+    background: #333;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 700px;
+	position: relative;
+	margin-bottom: 50px;
+    
+}
+input[type="submit"]:hover{
+    background: gray;
+	/* totalprice */
+ }
+ .total-price {
+    text-align: right;
+    margin-top: -90px;
+	margin-right: 180px;
+}
+#plus{
+	/* background-color: rgb(248, 245, 245); */
+	display: inline-block;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border: none;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+	
+}

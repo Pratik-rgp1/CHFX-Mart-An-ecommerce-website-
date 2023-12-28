@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "quicksand";
+    /* background-color: #d9d9d9; */
+  }
+  
+  body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #d9d9d9;
+  }
+  .nav-bar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .feedback_img {
+    margin: 100px 30px;
+    max-width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .container .logo h1 {
+    display: flex;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #175928;
+  } */
+  
+  .form-container {
+    margin: 50px 30px;
+    max-width: 600px;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #eceef3;
+    border-radius: 5px;
+  }
+  
+  .form-container form {
+    margin: 0 40px;
+    max-width: 600px;
+    display: flex;
+    /* gap: 1rem; */
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  h1 {
+    height: 6rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    padding-block: 5px;
+  }
+  .form-container form label  {
+    font-size: 1.3rem;
+    padding: 3px 0;
+    padding-block: 10px;
+    /* height: 2rem; */
+    /* background-color: #577997; */
+  }
+  
+  .form-container form input,
+  textarea {
+    padding: 8px;
+    border: radius 20px;
+    margin: 5px 0 5px 0;
+    /* border: none; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0 rgba(red, green, blue, alpha);
+    /* text-transform: capitalize; */
+    font-size: 1rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #577997;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-size: 16px;
+    /* margin: 4px 40px; */
+    cursor: pointer;
+    border-radius: 13px;
+    /* height: 20px; */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3d3d3d;
+  }
+  
+  h3 {
+    font-size: 15px;
+    color: #5d5d5d;
+    padding-block: 10px;
+  }
+  
